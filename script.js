@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 
 // Supabase setup
 const supabaseUrl = 'https://prcdzxxdhdmjldmpvulx.supabase.co'
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY'  // replace with your anon key
+const supabaseKey = 'sb_publishable_GfuD7WT6lVydOUoWYLZVmA_V20s_l4ithi' // your anon key
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // DOM elements
